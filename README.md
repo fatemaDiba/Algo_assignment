@@ -73,8 +73,8 @@ And the DFS output starting from node "0" is: 0, 2, 4, 3, 1.
 
 ## Output of the Code:
 
-<img src="image/dfs_output.png" width="70%" alt="dfs_output"/>
+<img src="image/dfs_output.PNG" width="70%" alt="dfs_output"/>
 
 ## Git Bash Screenshot:
 
-<img src="image/gitbash.png" width="70%" alt="git_bash"/>
+<img src="image/gitbash.PNG" width="70%" alt="git_bash"/>
