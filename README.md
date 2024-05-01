@@ -45,23 +45,20 @@ We found 2 adjacent nodes here 1 and 2 .
 
 Keep repeating this process untill there are no adjacent node of the current node.
 
-<img src="images/5.jpg" width="60%" alt="image_5"/>
-<img src="images/6.jpg" width="60%" alt="image_6"/>
-<img src="images/7.jpg" width="60%" alt="image_7"/>
+<img src="image/5.jpg" width="70%" alt="image_5"/>
 
 <ul>
   <li>Here node "4" has no adjacent node. So we will pop it out of the stack to check the previous node.</li>
   <li>If the previous node has an adjacent node push it in the stack or pop the current node out of stack until any unvisited node is found</li>
 </ul>
 
-
 ## Step 4:
 
 Keep repating step 2 and step 3 until the stack is empty.
 
-<img src="images/8.jpg" width="60%" alt="image_8"/>
-<img src="images/9.jpg" width="60%" alt="image_9"/>
-<img src="images/10.jpg" width="60%" alt="image_10"/>
+<img src="image/6.jpg" width="70%" alt="image_6"/>
+<img src="image/7.jpg" width="70%" alt="image_7"/>
+<img src="image/8.jpg" width="70%" alt="image_8"/>
 
 
 ## Step 5:
