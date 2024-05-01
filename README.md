@@ -59,19 +59,22 @@ Keep repating step 2 and step 3 until the stack is empty.
 <img src="image/6.jpg" width="70%" alt="image_6"/>
 <img src="image/7.jpg" width="70%" alt="image_7"/>
 <img src="image/8.jpg" width="70%" alt="image_8"/>
+<img src="image/9.jpg" width="70%" alt="image_9"/>
+<img src="image/10.jpg" width="70%" alt="image_10"/>
+<img src="image/11.jpg" width="70%" alt="image_11"/>
+<img src="image/12.jpg" width="70%" alt="image_12"/>
 
 
 ## Step 5:
 
-Now the output is generated and it represents a spanning tree.
-
-And the DFS output starting from node "0" is: 0, 3, 5, 2, 4, 1
-<img src="images/11.jpg" width="60%" alt="image_11"/>
+Now the output is generated
+And the DFS output starting from node "0" is: 0, 2, 4, 3, 1.
+<img src="image/11.jpg" width="70%" alt="image_13"/>
 
 ## Output of the Code:
 
-<img src="images/output.png" width="60%" alt="output"/>
+<img src="image/dfs_output.png" width="70%" alt="dfs_output"/>
 
 ## Git Bash Screenshot:
 
-<img src="images/git bash.png" width="60%" alt="git_bash"/>
+<img src="image/gitbash.png" width="70%" alt="git_bash"/>
