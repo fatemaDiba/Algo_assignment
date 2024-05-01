@@ -1,32 +1,29 @@
 # DFS Algorithm and Steps 
 
 ### Depth First Search ( DFS ): Algorithm
-<ol>
-  <li>Take the adjacency matrix as input.</li>
-  <li>Define a stack with size of total number of nodes.</li>
-  <li>Select any node as the starting point of traversal and push it in the stack.</li>
-  <li>Check if it has any unvisited neighbour nodes. If so push it in the stack</li>
-  <li>Repeat step 4 untill there is no neighbour node of the node which is at the top of the stack.</li>
-  <li>Pop the node from the top of the stack.</li>
-  <li>Repeat step 4, 5 and 6 untill the stack is empty.</li>
-  <li>When the stack is empty the whole graph is traversed.</li>
-</ol>
+* Take the adjacency matrix as input.
+* Define a stack size as the total number of nodes.
+* Select any node as the starting point of traversal and push it in the stack.
+* Check if the node has any unvisited neighbour nodes. If so push it in the stack.
+* Repeat step 4 untill there is no neighbour node of the node which is at the top of the stack.
+* Pop the node from the top of the stack.
+* Repeat step 4, 5 and 6 untill the stack is empty.
+* When the stack is empty the whole graph is traversed.
 
 ### Depth First Search ( DFS ): Procedure
 
 Let's consider the following graph to understand DFS traversal. 
 
-<img src="images/1.jpg" width="60%" alt="image_1"/>
+<img src="image/1.jpg" width="70%" alt="image_1"/>
 
 Now we need to generate an input for the code. We can create an adjacency matrix from this graph.
 
-<img src="images/2.jpg" width="60%" alt="image_2"/>
+<img src="image/2.jpg" width="70%" alt="image_2"/>
 
 ## Step 1:
 In this case we can start the traversal from node "0". We need to define a stack to track the nodes.
 
-
-<img src="images/3.jpg" width="60%" alt="image_3"/>
+<img src="image/3.jpg" width="70%" alt="image_3"/>
 
 <ul>
   <li>First put the first node (in this case 0) to the stack. </li>
@@ -35,13 +32,13 @@ In this case we can start the traversal from node "0". We need to define a stack
 
 ## Step 2:
 
-We found 3 adjacent nodes here 1, 2 and 3. 
+We found 2 adjacent nodes here 1 and 2 . 
 
-<img src="images/4.jpg" width="60%" alt="image_4"/>
+<img src="image/4.jpg" width="70%" alt="image_4"/>
 
 <ul>
-  <li>Now push anyone of these nodes to the stack (In this case 3). </li>
-  <li>Then check if there are any adjacent nodes of the current node (of node 3).</li>
+  <li>Now push anyone of these nodes to the stack (Here node 2). </li>
+  <li>Then check if there are any adjacent nodes of the current node (of node 2).</li>
 </ul>
 
 ## Step 3:
